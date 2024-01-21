@@ -33,7 +33,7 @@ public class main {
         espetinho = leitor.nextInt();
 
         Bill bill = new Bill(sexo, cerveja, espetinho, refrigerante);
-
+        leitor.close();
         bill.relatorio();
     }
 }
